@@ -61,6 +61,20 @@ export default function BlogsPage() {
             </p>
           </Link>
         </div>
+
+        <div className="blog-card">
+          <Link href={"/blogs/blog-5"}>
+            <img
+              src={"https://via.placeholder.com/150/33FF57/FFFFFF?text=Next.js"}
+              alt={"Next.js for Beginners"}
+              className="blog-image"
+            />
+            <h2>Blog 5</h2>
+            <p>
+              An introduction to Next.js, the React framework for production.
+            </p>
+          </Link>
+        </div>
       </div>
     </div>
   );
